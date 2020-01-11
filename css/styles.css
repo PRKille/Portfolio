@@ -8,19 +8,23 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
   text-align: center;
-  background-color: rgb(54, 80, 228);
+  background-color: cornflowerblue;
+  background-image: radial-gradient(closest-side, cornflowerblue, #E7F9FD);
   border: solid transparent;
   border-radius: 30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-left: 33%;
-  margin-right: 33%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .header img {
   max-width: 30%;
   margin-left: 35%;
   margin-right: 35%;
+  margin-bottom: 20px;
 }
 
 .panel {
@@ -33,7 +37,7 @@ strong {
   font-style: oblique;
 }
 
-.bg-danger {
+.bad {
   color: red;
 }
 
@@ -59,9 +63,10 @@ li {
   background-color: transparent;
 }
 
-.panel-info>.panel-heading {
-  background-color: rgb(54, 80, 228);
+.about{
+  background-image: linear-gradient(rgb(54, 80, 228), #E7F9FD);
 }
+
 .panel-title {
   font-size: large;
   font-weight: bolder;
