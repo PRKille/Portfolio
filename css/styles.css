@@ -8,8 +8,7 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
   text-align: center;
-  background-color: cornflowerblue;
-  background-image: radial-gradient(closest-side, cornflowerblue, #E7F9FD);
+  background-color: #E7F9FD;
   border: solid transparent;
   border-radius: 30px;
   padding-top: 30px;
@@ -64,7 +63,7 @@ li {
 }
 
 .about{
-  background-image: linear-gradient(rgb(54, 80, 228), #E7F9FD);
+  background-color: rgb(54, 80, 228);
 }
 
 .panel-title {
